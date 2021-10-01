@@ -14,7 +14,7 @@ In order to run this tutorial, you need to have Python and Locust (and Docker if
 
 ## Running
 
-Tests can be run using the maven command `locust`.
+Tests can be run using the command `locust`.
 
 ```bash
 locust -f LocustScript.py --headless -u 50 -r 1 -t 1m --csv=example
