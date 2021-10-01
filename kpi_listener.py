@@ -155,8 +155,7 @@ class KpiPlugin:
                     'summary': ' Perf test',
                     'description': 'Perf test',
                     'project': 'XT',
-                    'testPlanKey': 'XT-239'
-
+                    'testPlanKey': 'XT-239',
                 },
             }
             
@@ -168,7 +167,6 @@ class KpiPlugin:
                     {
                         'name': metric + ' for ' + name,
                         'log': comment,
-                        'duration': 5,
                         'status': status
                     }
                 ],
