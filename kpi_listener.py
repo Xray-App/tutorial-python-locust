@@ -12,9 +12,9 @@ class Metric(Enum):
     ERROR_RATE = 'error_rate'
     PERCENTILE_90 = 'percentile_90'
     RPS = 'rps'
-    ERROR_RATE_TESTKEY = 'COM-158'
-    PERCENTILE_90_TESTKEY = 'COM-160'
-    RPS_TESTKEY = 'COM-159'
+    ERROR_RATE_TESTKEY = 'XT-240'
+    PERCENTILE_90_TESTKEY = 'XT-241'
+    RPS_TESTKEY = 'XT-242'
 
     @staticmethod
     def has_value(item):
@@ -154,7 +154,9 @@ class KpiPlugin:
                 'info': {
                     'summary': ' Perf test',
                     'description': 'Perf test',
-                    'project': 'COM',
+                    'project': 'XT',
+                    'testPlanKey': 'XT-239'
+
                 },
             }
             
