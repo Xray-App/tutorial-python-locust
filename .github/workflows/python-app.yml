@@ -35,7 +35,7 @@ jobs:
       env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: "Import results to Xray (cloud)"
-      uses: mikepenz/xray-action@v2.0.0
+      uses: mikepenz/xray-action@v2.3.0
       with:
          username: "${{ secrets.XRAYCLOUD_CLIENT_ID }}"
          password: "${{ secrets.XRAYCLOUD_CLIENT_SECRET }}"
